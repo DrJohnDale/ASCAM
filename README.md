@@ -2,6 +2,7 @@
 
 ASCAM can be used to browse, organize and analyze episodic recordings of single ion channel currents.
 
+Note: This folk is modified to work on windows (and probably linux)
 ## Installing 
 Clone (with git, see below) or download the zip from this page.
 

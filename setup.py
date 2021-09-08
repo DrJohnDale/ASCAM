@@ -20,12 +20,12 @@ setup(
     packages=find_packages(where=here),
     python_requires=">=3.7",
     install_requires=[
-        "PySide2",
-        "pyqtgraph",
-        "numpy",
-        "pandas",
-        "scipy",
-        "axographio"
+        "PySide2>=5.15.2",
+        "pyqtgraph>=0.12.2",
+        "numpy>=1.21.2",
+        "pandas>=1.1.5",
+        "scipy>=1.7.1",
+        "axographio>=0.3.1"
     ],
     entry_points={"console_scripts": ["ascam=src.ascam:main"]},
 )
