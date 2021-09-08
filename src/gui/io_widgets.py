@@ -1,4 +1,4 @@
-from PySide2 import QtGui
+from PySide2 import QtGui, QtWidgets
 from PySide2.QtWidgets import (
     QLineEdit,
     QDialog,
@@ -46,7 +46,7 @@ class BaseExportWidget(EntryWidget):
 
         self.list_selection = QListWidget()
         self.list_selection.addItems(list(self.main.data.lists.keys()))
-        self.list_selection.setSelectionMode(QtGui.QAbstractItemView.MultiSelection)
+        self.list_selection.setSelectionMode(QtWidgets.QAbstractItemView.MultiSelection)
         self.list_selection.setCurrentRow(0)
         self.list_selection.setFixedHeight(18 * len(list(self.main.data.lists.keys())))
 
